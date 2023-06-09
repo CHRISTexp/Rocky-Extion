@@ -45,7 +45,7 @@ while True:
     sent = 0
     for sent in range(10, 65534):
     	for port in range(10, 65534):
-        white.sendto(bytes, (ip, port))
+        white.sendto(Lbytes, (ip, port))
         sent = sent + 1
         sent=102400:
         port = port + 1
